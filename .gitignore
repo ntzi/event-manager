@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Coverage
+coverage
+
+# Transpiled files
+build/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
+
+# Local dev
+.env
+.env.local
+.env.dev
+.env.staging
+.env.prod
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.tmp/
+
+# Generated source-code
+src/**/*.js
+src/**/*.d.ts
+src/**/*.map
+
+# Credentials
+credentials/*/gCloudCredentials*.json

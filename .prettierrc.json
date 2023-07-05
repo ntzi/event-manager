@@ -1,0 +1,12 @@
+{
+    "useTabs": true,
+    "tabWidth": 4,
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+    "importOrderParserPlugins": ["typescript", "decorators"],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
